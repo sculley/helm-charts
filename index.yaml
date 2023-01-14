@@ -5,7 +5,7 @@ entries:
       category: CMS
     apiVersion: v2
     appVersion: 3.40.2
-    created: "2020-12-31T16:03:27.981113Z"
+    created: "2023-01-14T14:44:25.859444Z"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -41,4 +41,18 @@ entries:
     urls:
     - https://sculley.github.io/helm-charts/ghost-11.2.0.tgz
     version: 11.2.0
-generated: "2020-12-31T16:03:27.975143Z"
+  kubelet-csr-approver:
+  - apiVersion: v2
+    appVersion: v0.2.4
+    created: "2023-01-14T14:44:25.859938Z"
+    description: Kubelet CSR Approver
+    digest: c440757d2904d246cb4ac4896efb91ac126f6c56ec067b7653964d55805914bb
+    maintainers:
+    - name: clementnuss
+    - name: treydock
+    name: kubelet-csr-approver
+    type: application
+    urls:
+    - https://sculley.github.io/helm-charts/kubelet-csr-approver-0.2.4.tgz
+    version: 0.2.4
+generated: "2023-01-14T14:44:25.854269Z"
